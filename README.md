@@ -1,5 +1,7 @@
 # Tagutils
 
+[![Build Status](https://travis-ci.org/CurtCo/tagutils.svg?branch=master)](https://travis-ci.org/CurtCo/tagutils)
+
 Generate tags for inclusion in Drupal's `#attached`.
 
 ## Usage

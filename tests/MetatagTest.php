@@ -1,10 +1,10 @@
 <?php
-namespace Curtco\Tagutils\Tests;
+namespace CurtCo\Tagutils\Tests;
 
-use Curtco\Tagutils\Metatag;
+use CurtCo\Tagutils\Metatag;
 
 /**
- * @coversDefaultClass \Curtco\Tagutils\Metatag
+ * @coversDefaultClass \CurtCo\Tagutils\Metatag
  */
 class MetatagTest extends \PHPUnit_Framework_TestCase {
 

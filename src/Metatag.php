@@ -1,5 +1,5 @@
 <?php
-namespace Curtco\Tagutils;
+namespace CurtCo\Tagutils;
 
 /**
  * Generate meta tags for use in Drupal #attached.

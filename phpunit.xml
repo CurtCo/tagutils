@@ -10,7 +10,7 @@
          bootstrap="vendor/autoload.php"
 >
   <testsuites>
-    <testsuite name="Curtco Tagutils Test Suite">
+    <testsuite name="CurtCo Tagutils Test Suite">
       <directory>./tests/</directory>
     </testsuite>
   </testsuites>

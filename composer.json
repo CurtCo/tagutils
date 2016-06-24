@@ -10,12 +10,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Curtco\\Tagutils\\": "src"
+            "CurtCo\\Tagutils\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Curtco\\Tagutils\\Tests\\": "tests"
+            "CurtCo\\Tagutils\\Tests\\": "tests"
         }
     },
     "authors": [

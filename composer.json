@@ -1,0 +1,26 @@
+{
+    "name": "curtco/tagutils",
+    "description": "Generate Drupal renderable tags with ease.",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Curtco\\Tagutils\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Curtco\\Tagutils\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benjamin Chodoroff"
+        }
+    ]
+}

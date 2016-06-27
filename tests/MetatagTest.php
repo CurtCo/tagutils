@@ -13,7 +13,7 @@ class MetatagTest extends \PHPUnit_Framework_TestCase {
    */
   public function testBuild() {
     $name = 'Asset Type';
-    $value = 'EPO Agent';
+    $content = 'EPO Agent';
 
     $expected = [
       [
@@ -22,13 +22,13 @@ class MetatagTest extends \PHPUnit_Framework_TestCase {
         '#value' => '',
         '#attributes' => [
           'name' => $name,
-          'value' => $value,
+          'content' => $content,
         ],
       ],
       'meta_' . $name,
     ];
 
-    $built = Metatag::build($name, $value);
+    $built = Metatag::build($name, $content);
 
     $this->assertEquals($expected, $built);
   }

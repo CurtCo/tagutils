@@ -7,17 +7,17 @@ namespace CurtCo\Tagutils;
 class Metatag {
 
   /**
-   * Build a single tag with a name & value.
+   * Build a single tag with a name & content.
    *
    * @param string $name
    *   Meta name="" value.
-   * @param string $value
-   *   Meta value="" value.
+   * @param string $content
+   *   Meta content="" value.
    *
    * @return array
    *   Drupal #attached-able array.
    */
-  public static function build($name, $value) {
+  public static function build($name, $content) {
     $built = [
       [
         '#type' => 'html_tag',
@@ -25,7 +25,7 @@ class Metatag {
         '#value' => '',
         '#attributes' => [
           'name' => $name,
-          'value' => $value,
+          'content' => $content,
         ],
       ],
       'meta_' . $name,
